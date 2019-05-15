@@ -1,4 +1,4 @@
-解题思路：
+### 解题思路：
 
 先把数据的奇数和偶数分成两个数组，然后分别不断从两个数组取一个元素加入结果数组。
 
@@ -15,7 +15,7 @@ class Solution {
             }
         }
         var result = Array.init(repeating: 0, count: A.count)
-        
+
         for (index, value) in odd.enumerated() {
             result[1+index*2] = value
         }
@@ -28,7 +28,7 @@ class Solution {
 }
 ```
 
-更高效的解法：
+### 更高效的解法：
 
 使用奇偶双下标法，一次遍历就可以得到结果数据。
 
