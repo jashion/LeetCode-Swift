@@ -28,6 +28,55 @@ class Solution {
 }
 ```
 
-### 更高效的解法：
+### 方法改进1：
 
-使用奇偶双下标法，一次遍历就可以得到结果数据。
+重复数值不用一个个删除，而是找到最小下标和最大下标，一次性删除。
+
+```swift
+class Solution {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        var index = 0
+        while index < nums.count {
+            let value = nums[index]
+            var endIndex = index;
+            while endIndex+1 < nums.count && nums[endIndex+1] == value {
+                endIndex = endIndex+1
+            }
+            if endIndex > index {
+                nums.removeSubrange(Range.init(NSMakeRange(index+1, endIndex-index))!)
+            }
+            index = index+1
+        }
+        return nums.count
+    }
+}
+```
+
+### 方法改进2:
+
+前面下标都是从0开始的，这次下标换成从count-1开始。
+
+```swift
+class Solution {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        var index = nums.count-1
+        while index > 0 {
+            let value = nums[index]
+            let endIndex = index
+            while index > 0 && nums[index-1] == value {
+                index = index-1
+            }
+            if endIndex > index {
+                nums.removeSubrange(Range.init(NSMakeRange(index+1, endIndex-index))!)
+            } else {
+                index = index-1
+            }
+        }
+        return nums.count
+    }
+}
+```
+
+
+
+### 更高效的解法：
