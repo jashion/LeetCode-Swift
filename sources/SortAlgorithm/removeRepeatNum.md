@@ -85,7 +85,7 @@ class Solution {
 
 前面的解题思路都是找到重复的数字删除掉，但是，其实可以只替换，不删除，只要保证前面的数据元素不重复就可以了。
 
-```
+```swift
 class Solution {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         var length = nums.count
