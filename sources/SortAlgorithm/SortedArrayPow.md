@@ -31,7 +31,7 @@ class Solution {
             }
             index = index-1
         }
-        result[index] = A[i]
+        result[index] = A[i]*A[i]
         return result
     }
 }
