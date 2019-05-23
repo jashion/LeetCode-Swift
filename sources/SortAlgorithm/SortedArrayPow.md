@@ -39,7 +39,7 @@ class Solution {
 
 ### 更简洁的解法：
 
-应该是有序，可以先平方再排序。
+因为是有序，可以先平方再排序。
 
 ```swift
 class Solution {
