@@ -19,10 +19,11 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 
 ---
 
-| 序号   | 标题                                                                            | 解题思路                                                                                                            |
-|:----:|:-----------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------:|
-| #671 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/submissions/) | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/MergeBinaryTree.md) |
-|      |                                                                               |                                                                                                                 |
-|      |                                                                               |                                                                                                                 |
+| 序号   | 标题                                                                              | 解题思路                                                                                                             |
+|:----:|:-------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
+| #237 | [删除链表中的结点（C语言）](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/DeleteLinkedNode.md) |
+| #671 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/submissions/)   | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/MergeBinaryTree.md)  |
+|      |                                                                                 |                                                                                                                  |
+|      |                                                                                 |                                                                                                                  |
 
 ### 
