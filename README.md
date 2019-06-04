@@ -26,6 +26,6 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #344 | [反转字符串](https://leetcode-cn.com/problems/reverse-string/)                                     | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/ReverseString.md)                   |
 | #171 | [Excel表序列号](https://leetcode-cn.com/problems/excel-sheet-column-number/)                      | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/ExcelSerialNumber.md)               |
 | #108 | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/SortedArrayTransferToBinaryTree.md) |
-| #118 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)                                    | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/Pascal's triangle.md)               |
+| #118 | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)                                    | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/Pascal'sTriangle.md)               |
 
 ### 
