@@ -1,6 +1,6 @@
 ### 题目：
 
-给定一个罗马数字，将其转换成整数。输入确保在 1 到 3999 的范围内。。
+给定一个罗马数字，将其转换成整数。输入确保在 1 到 3999 的范围内。
 
 ### 解题思路：
 
@@ -121,7 +121,7 @@ class Solution {
             return 0
         }
     }
-    
+
     func romanToInt(_ s: String) -> Int {
         var sum = 0
         var pre: Character?
@@ -164,12 +164,12 @@ class Solution {
             return 500
         case "M":
             return 1000
-            
+
         default:
             return 0
         }
     }
-    
+
     func romanToInt(_ s: String) -> Int {
         var sum = 0
         var pre: Character?
