@@ -38,6 +38,6 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #122 | [买卖股票的最佳时机II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)           | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/MaxProfitII.md)                     |
 | #242 | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)                                   | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/Anagram.md)                         |
 | #371 | [两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/)                                | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/GetSum.md)                          |
-|      |                                                                                               |                                                                                                                                 |
+| #268 | [缺失数字](https://leetcode-cn.com/problems/missing-number/)                                      | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/MissingNumber.md)                   |
 
 ### 
