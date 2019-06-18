@@ -49,6 +49,6 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #53  | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/)                                   | [解法](/sources/HotTopInterviewQuestions/MaxSubArray.md)                                                                          |
 | #26  | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)          | [解法](/sources/HotTopInterviewQuestions/RemoveDuplicates.md)                                                                     |
 | #88  | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)                              | [解法](/sources/HotTopInterviewQuestions/Merge.md)                                                                                |
-|      |                                                                                               |                                                                                                                                 |
+| #326 | [3的幂](https://leetcode-cn.com/problems/power-of-three/)                                       | [解法](/sources/HotTopInterviewQuestions/IsPowerOfThree.md)                                                                       |
 
 ### 
