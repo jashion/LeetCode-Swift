@@ -151,10 +151,10 @@ bt: i->3 sub->[3] res->[[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]
         return res
     }
     private func backtrace(_ nums : [Int], _ i : Int, _ sub : inout [Int], _ res : inout [[Int]]){
-        res.append(sub)
         var j = i
         while j < nums.count {
             sub.append(nums[j])
+            res.append(sub)
             backtrace(nums, j+1, &sub, &res)
             sub.remove(at: sub.count-1)
             j += 1
@@ -168,9 +168,9 @@ bt: i->3 sub->[3] res->[[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]
 和解法二一样的回溯法，但是构造的结果树不一样：
 
 ```
-       root
-     /     \
-    0       1
+       root
+     /     \
+    0       1
   /  \     /  \
   0   1    0   1 
 /  \ / \  / \  / \
@@ -213,6 +213,185 @@ bt: i->3 sub->[3] res->[[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]]
             }
         }
         return res
+    }
+ }
+ 
+//递归枚举
+ class Solution {
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        var res: [[Int]] = [[]]
+        recurison(nums, 0, &res)
+        return res
+    }
+
+    func recurison(_ nums: [Int], _ i: Int, _ res: inout [[Int]]) {
+        if i >= nums.count {
+            return
+        }
+        let result = res
+        for item in result {
+            var tmp = item
+            tmp.append(nums[i])
+            res.append(tmp)
+        }
+        recurison(nums, i+1, &res)
+    }
+ }
+```
+
+### 解法四：
+
+二进制法，每个数字都只有两种状态，选或者不选，选使用1表示，不选使用0表示，那么输入[1, 2, 3]就有8种可能：
+
+[0, 0, 0] [0, 0, 1] [0, 1, 0] [0, 1, 1] [1, 0, 0] [1, 0, 1] [1, 1, 0] [1, 1, 1]
+
+可以通过二进制移位和1与得出每个选择的数字。
+
+```swift
+ class Solution {
+    //比如输入: [1, 2, 3]
+    //每个数只可能有两种情况：选择 or 不选择
+    //则总共有2*2*2=8中情况
+    //使用二进制表示：0不选择 1选择
+    //[000, 001, 010, 011, 100, 101, 110, 111]
+    //总共有三个二进制，通过遍历可以知道相应的数字是否选择或者不选择
+    //比如i=3 011 (011>>0)&01=011&01=1 (011>>1)&01=01&01=1 (011>>2)&01=0&01=0
+    //可以得出[1, 2]
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        var res = [[Int]]()
+        for i in 0..<nums.count*2 {
+            var sub = [Int]()
+            for j in 0..<nums.count {
+                if ((i >> j) & 1) == 1 {
+                    sub.append(nums[j])
+                }
+            }
+            res.append(sub)
+        }
+        return res
+    }
+ }
+```
+
+### 解法五：
+
+每个元素都由选和不选构成，所有元素的所有可能就构成了一棵满二叉树，从根结点到叶结点的所有路径构成了所有解的集合，通过中序遍历。
+
+```
+       root
+     /     \
+    0       1
+   / \     / \
+  0   1   0   1
+ / \ / \ / \ / \
+ 0 1 0 1 0 1 0 1
+```
+
+```swift
+ //需要保证添加进结果数组的操作在添加tmp数组之后
+ class Solution {
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        var res: [[Int]] = [[]]
+        inOrder(nums, 0, [], &res)
+        return res
+    }
+
+    func inOrder(_ nums: [Int], _ i: Int, _ sub: [Int], _ res: inout [[Int]]) {
+        if i >= nums.count {
+            return
+        }
+
+        var tmp = sub
+        //左子树，不选
+        //不需要加入tmp
+        inOrder(nums, i+1, tmp, &res)
+        //右子树，选
+        //需要加入tmp
+        tmp.append(nums[i])
+        //因为加入了新的数据，所以需要添加入res
+        res.append(tmp)
+        inOrder(nums, i+1, tmp, &res)
+    }
+ }
+ 
+ //后序
+ class Solution {
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        var res: [[Int]] = [[]]
+        postOrder(nums, 0, [], &res)
+        return res
+    }
+
+    func postOrder(_ nums: [Int], _ i: Int, _ sub: [Int], _ res: inout [[Int]]) {
+        if i >= nums.count {
+            return
+        }
+
+        var tmp = sub
+        //左子树，不选
+        //不需要加入tmp
+        postOrder(nums, i+1, tmp, &res)
+        //右子树，选
+        //需要加入tmp
+        tmp.append(nums[i])
+        postOrder(nums, i+1, tmp, &res)
+        //因为加入了新的数据，所以需要添加入res
+        //后序遍历完再加入res
+        res.append(tmp)
+    }
+ }
+```
+
+### 解法六：
+
+思路和解法五一样，只是换成左子树为选，右子树为不选。
+
+```swift
+ //需要保证res操作在stack.append之后，在stack.removeLast之前
+ class Solution {
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        var res: [[Int]] = [[]]
+        var stack: [Int] = []
+        preOrder(nums, 0, &stack, &res)
+        return res
+    }
+
+    func preOrder(_ nums: [Int], _ i: Int, _ stack: inout [Int], _ res: inout [[Int]]) {
+        if i >= nums.count {
+            return
+        }
+
+        //左子树，选
+        stack.append(nums[i])
+        res.append(stack)
+        preOrder(nums, i+1, &stack, &res)
+        //右子树，不选
+        stack.removeLast()
+        preOrder(nums, i+1, &stack, &res)
+    }
+ }
+ 
+ //中序
+ class Solution {
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        var res: [[Int]] = [[]]
+        var stack: [Int] = []
+        inOrder(nums, 0, &stack, &res)
+        return res
+    }
+
+    func inOrder(_ nums: [Int], _ i: Int, _ stack: inout [Int], _ res: inout [[Int]]) {
+        if i >= nums.count {
+            return
+        }
+
+        //左子树，选
+        stack.append(nums[i])
+        inOrder(nums, i+1, &stack, &res)
+        res.append(stack)
+        //右子树，不选
+        stack.removeLast()
+        inOrder(nums, i+1, &stack, &res)
     }
  }
 ```
