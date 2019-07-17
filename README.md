@@ -33,15 +33,17 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 
 2.确定**易于搜索的解空间结构**，可以使用回溯法方便的搜索整个解空间结构
 
-3.使用深度优先(DFS)搜索解空间，并在搜索的过程中使用**剪枝函数**避免无效的搜索
+3.使用深度优先(DFS)搜索解空间，并在搜索的过程中使用**剪枝函数**避免无效的搜索回
+
+[溯法例题讲解](sources/BackTraceAlgorithm/backTrace.md)
 
 ---
 
-| 序号  | 标题                                              | 解题思路                                              | 难度     |
-|:--- |:-----------------------------------------------:|:-------------------------------------------------:|:------:|
-| #78 | [子集](https://leetcode-cn.com/problems/subsets/) | [解法](sources/HotTopInterviewQuestions/subsets.md) | medium |
-| #   |                                                 |                                                   |        |
-|     |                                                 |                                                   |        |
+| 序号  | 标题                                                             | 解题思路                                                          | 难度     |
+|:--- |:--------------------------------------------------------------:|:-------------------------------------------------------------:|:------:|
+| #78 | [子集](https://leetcode-cn.com/problems/subsets/)                | [解法](sources/HotTopInterviewQuestions/subsets.md)             | medium |
+| #22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [解法](sources/HotTopInterviewQuestions/generateParenthesis.md) | medium |
+|     |                                                                |                                                               |        |
 
 #### 动态规划
 
@@ -104,7 +106,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #7   | [整数反转](https://leetcode-cn.com/problems/reverse-integer/)                                     | [解法](sources/HotTopInterviewQuestions/reverseNumber.md)                                                                         | easy   |
 | #204 | [计数质数](https://leetcode-cn.com/problems/count-primes/)                                        | [解法](sources/HotTopInterviewQuestions/countPrimes.md)                                                                           | easy   |
 | #78  | [子集](https://leetcode-cn.com/problems/subsets/)                                               | [解法](sources/HotTopInterviewQuestions/subsets.md)                                                                               | medium |
-|      |                                                                                               |                                                                                                                                 |        |
+| #22  | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)                                | [解法](sources/HotTopInterviewQuestions/generateParenthesis.md)                                                                   | medium |
 |      |                                                                                               |                                                                                                                                 |        |
 
 ### 
