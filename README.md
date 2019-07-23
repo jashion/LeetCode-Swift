@@ -4,17 +4,17 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 
 <!--more-->
 
-## 1.数据结构
+## 一.数据结构
 
-#### 数组
+#### （1）数组
 
-#### 栈
+#### （2）栈
 
-#### 队列
+#### （3）队列
 
-#### 树
+#### （4）树
 
-##### 二叉树
+###### 二叉树
 
 ---
 
@@ -24,7 +24,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #108 | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/SortedArrayTransferToBinaryTree.md) | easy   |
 | #101 | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)                                     | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/IsSymmetric.md)                     | easy   |
 | #94  | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                   | [解法](sources/HotTopInterviewQuestions/inorderTraversal.md)                                                                      | medium |
-|      |                                                                                               |                                                                                                                                 |        |
+| #230 | [二叉搜索树中第k小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)               | [解法](sources/HotTopInterviewQuestions/kthSmallest.md)                                                                           | medium |
 |      |                                                                                               |                                                                                                                                 |        |
 |      |                                                                                               |                                                                                                                                 |        |
 |      |                                                                                               |                                                                                                                                 |        |
@@ -32,7 +32,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 
 #### 图
 
-## 2.算法
+## 二.算法
 
 #### 排序算法
 
@@ -77,7 +77,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 
 #### 贪心算法
 
-## 3.其他专题
+## 三.其他专题
 
 #### 精选Top面试题
 
@@ -135,7 +135,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #22  | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)                                | [解法](sources/HotTopInterviewQuestions/generateParenthesis.md)                                                                   | medium |
 | #46  | [全排列](https://leetcode-cn.com/problems/permutations/)                                         | [解法](sources/HotTopInterviewQuestions/permute.md)                                                                               | medium |
 | #94  | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                   | [解法](sources/HotTopInterviewQuestions/inorderTraversal.md)                                                                      | medium |
-|      |                                                                                               |                                                                                                                                 |        |
+| #230 | [二叉搜索树中第k小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)               | [解法](sources/HotTopInterviewQuestions/kthSmallest.md)                                                                           | medium |
 |      |                                                                                               |                                                                                                                                 |        |
 |      |                                                                                               |                                                                                                                                 |        |
 |      |                                                                                               |                                                                                                                                 |        |
