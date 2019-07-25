@@ -30,7 +30,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 |      |                                                                                               |                                                                                                                                 |        |
 |      |                                                                                               |                                                                                                                                 |        |
 
-#### 图
+#### （4）图
 
 ## 二.算法
 
@@ -138,7 +138,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #230 | [二叉搜索树中第k小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)               | [解法](sources/HotTopInterviewQuestions/kthSmallest.md)                                                                           | medium |
 | #289 | [生命游戏](https://leetcode-cn.com/problems/game-of-life/)                                        | [解法](sources/HotTopInterviewQuestions/gameOfLife.md)                                                                            | medium |
 |      |                                                                                               |                                                                                                                                 |        |
-|      |                                                                                               |                                                                                                                                 |        |
+| #48  | [旋转图像](https://leetcode-cn.com/problems/rotate-image/)                                        | [解法](sources/HotTopInterviewQuestions/rotateImage.md)                                                                           | medium |
 |      |                                                                                               |                                                                                                                                 |        |
 |      |                                                                                               |                                                                                                                                 |        |
 |      |                                                                                               |                                                                                                                                 |        |
