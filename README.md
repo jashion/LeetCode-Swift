@@ -60,16 +60,16 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 
 ---
 
-| 序号  | 标题                                                             | 解题思路                                                          | 难度     |
-|:--- |:--------------------------------------------------------------:|:-------------------------------------------------------------:|:------:|
-| #78 | [子集](https://leetcode-cn.com/problems/subsets/)                | [解法](sources/HotTopInterviewQuestions/subsets.md)             | medium |
-| #90 | [子集II](https://leetcode-cn.com/problems/subsets-ii/)           | [解法](sources/BackTraceAlgorithm/subSetsII.md)                 | medium |
-| #22 | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [解法](sources/HotTopInterviewQuestions/generateParenthesis.md) | medium |
-| #46 | [全排列](https://leetcode-cn.com/problems/permutations/)          | [解法](sources/HotTopInterviewQuestions/permute.md)             | medium |
-|     |                                                                |                                                               |        |
-|     |                                                                |                                                               |        |
-|     |                                                                |                                                               |        |
-|     |                                                                |                                                               |        |
+| 序号   | 标题                                                                 | 解题思路                                                          | 难度     |
+|:---- |:------------------------------------------------------------------:|:-------------------------------------------------------------:|:------:|
+| #78  | [子集](https://leetcode-cn.com/problems/subsets/)                    | [解法](sources/HotTopInterviewQuestions/subsets.md)             | medium |
+| #90  | [子集II](https://leetcode-cn.com/problems/subsets-ii/)               | [解法](sources/BackTraceAlgorithm/subSetsII.md)                 | medium |
+| #22  | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/)     | [解法](sources/HotTopInterviewQuestions/generateParenthesis.md) | medium |
+| #46  | [全排列](https://leetcode-cn.com/problems/permutations/)              | [解法](sources/HotTopInterviewQuestions/permute.md)             | medium |
+| #131 | [分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/) | [解法](sources/HotTopInterviewQuestions/partition.md)           | medium |
+|      |                                                                    |                                                               |        |
+|      |                                                                    |                                                               |        |
+|      |                                                                    |                                                               |        |
 
 #### 动态规划
 
@@ -137,7 +137,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #94  | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                   | [解法](sources/HotTopInterviewQuestions/inorderTraversal.md)                                                                      | medium |
 | #230 | [二叉搜索树中第k小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)               | [解法](sources/HotTopInterviewQuestions/kthSmallest.md)                                                                           | medium |
 | #289 | [生命游戏](https://leetcode-cn.com/problems/game-of-life/)                                        | [解法](sources/HotTopInterviewQuestions/gameOfLife.md)                                                                            | medium |
-|      |                                                                                               |                                                                                                                                 |        |
+| #131 | [分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)                            | [解法](sources/HotTopInterviewQuestions/partition.md)                                                                             | medium |
 | #48  | [旋转图像](https://leetcode-cn.com/problems/rotate-image/)                                        | [解法](sources/HotTopInterviewQuestions/rotateImage.md)                                                                           | medium |
 | #238 | [除自身以外数组的乘积](https://leetcode-cn.com/problems/product-of-array-except-self/)                  | [解法](sources/HotTopInterviewQuestions/productExceptSelf.md)                                                                     | medium |
 | #148 | [排序列表](https://leetcode-cn.com/problems/sort-list/)                                           | [解法](sources/HotTopInterviewQuestions/sortList.md)                                                                              | medium |
