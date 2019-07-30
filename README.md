@@ -30,6 +30,18 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 |      |                                                                                               |                                                                                                                                 |        |
 |      |                                                                                               |                                                                                                                                 |        |
 
+###### 前缀树
+
+Trie (发音为 "try") 或前缀树是一种树数据结构，用于检索字符串数据集中的键。这一高效的数据结构有[多种应用]([https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode/](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode/)。
+
+----
+
+| 序号   | 标题                                                                          | 解题思路                                           | 难度     |
+|:---- |:---------------------------------------------------------------------------:|:----------------------------------------------:|:------:|
+| #208 | [实现Trie(前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [解法](sources/HotTopInterviewQuestions/Trie.md) | medium |
+|      |                                                                             |                                                |        |
+|      |                                                                             |                                                |        |
+
 #### （4）图
 
 ## 二.算法
@@ -143,7 +155,7 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 | #148 | [排序列表](https://leetcode-cn.com/problems/sort-list/)                                                             | [解法](sources/HotTopInterviewQuestions/sortList.md)                                                                              | medium |
 | #341 | [扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)                                    | [解法](sources/HotTopInterviewQuestions/NestedIterator.md)                                                                        | medium |
 | #287 | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/xun-zhao-zhong-fu-shu-by-leetcode/) | [解法](sources/HotTopInterviewQuestions/findDuplicate.md)                                                                         | medium |
-|      |                                                                                                                 |                                                                                                                                 |        |
+| #208 | [实现Trie(前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)                                     | [解法](sources/HotTopInterviewQuestions/Trie.md)                                                                                  | medium |
 |      |                                                                                                                 |                                                                                                                                 |        |
 |      |                                                                                                                 |                                                                                                                                 |        |
 |      |                                                                                                                 |                                                                                                                                 |        |
