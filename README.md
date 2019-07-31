@@ -18,23 +18,23 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 
 ---
 
-| 序号   | 标题                                                                                            | 解题思路                                                                                                                            | 难度     |
-|:----:|:---------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:------:|
-| #671 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/submissions/)                 | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/MergeBinaryTree.md)                 | easy   |
-| #108 | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/SortedArrayTransferToBinaryTree.md) | easy   |
-| #101 | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)                                     | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/IsSymmetric.md)                     | easy   |
-| #94  | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                   | [解法](sources/HotTopInterviewQuestions/inorderTraversal.md)                                                                      | medium |
-| #230 | [二叉搜索树中第k小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)               | [解法](sources/HotTopInterviewQuestions/kthSmallest.md)                                                                           | medium |
-|      |                                                                                               |                                                                                                                                 |        |
-|      |                                                                                               |                                                                                                                                 |        |
-|      |                                                                                               |                                                                                                                                 |        |
-|      |                                                                                               |                                                                                                                                 |        |
+| 序号   | 标题                                                                                                             | 解题思路                                                                                                                            | 难度     |
+|:----:|:--------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------:|:------:|
+| #671 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/submissions/)                                  | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/MergeBinaryTree.md)                 | easy   |
+| #108 | [将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)                  | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/SortedArrayTransferToBinaryTree.md) | easy   |
+| #101 | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)                                                      | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/IsSymmetric.md)                     | easy   |
+| #94  | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)                                    | [解法](sources/HotTopInterviewQuestions/inorderTraversal.md)                                                                      | medium |
+| #230 | [二叉搜索树中第k小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)                                | [解法](sources/HotTopInterviewQuestions/kthSmallest.md)                                                                           | medium |
+| #105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [解法](sources/HotTopInterviewQuestions/buildTree.md)                                                                             | medium |
+|      |                                                                                                                |                                                                                                                                 |        |
+|      |                                                                                                                |                                                                                                                                 |        |
+|      |                                                                                                                |                                                                                                                                 |        |
 
 ###### 前缀树
 
 Trie (发音为 "try") 或前缀树是一种树数据结构，用于检索字符串数据集中的键。这一高效的数据结构有[多种应用]([https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode/](https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/shi-xian-trie-qian-zhui-shu-by-leetcode/)。
 
-----
+---
 
 | 序号   | 标题                                                                          | 解题思路                                           | 难度     |
 |:---- |:---------------------------------------------------------------------------:|:----------------------------------------------:|:------:|
@@ -156,7 +156,7 @@ Trie (发音为 "try") 或前缀树是一种树数据结构，用于检索字符
 | #341 | [扁平化嵌套列表迭代器](https://leetcode-cn.com/problems/flatten-nested-list-iterator/)                                    | [解法](sources/HotTopInterviewQuestions/NestedIterator.md)                                                                        | medium |
 | #287 | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/xun-zhao-zhong-fu-shu-by-leetcode/) | [解法](sources/HotTopInterviewQuestions/findDuplicate.md)                                                                         | medium |
 | #208 | [实现Trie(前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)                                     | [解法](sources/HotTopInterviewQuestions/Trie.md)                                                                                  | medium |
-|      |                                                                                                                 |                                                                                                                                 |        |
+| #105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  | [解法](sources/HotTopInterviewQuestions/buildTree.md)                                                                             | medium |
 |      |                                                                                                                 |                                                                                                                                 |        |
 |      |                                                                                                                 |                                                                                                                                 |        |
 |      |                                                                                                                 |                                                                                                                                 |        |
