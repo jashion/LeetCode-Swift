@@ -8,11 +8,34 @@ LeetCode上的算法，使用Swift实现。会根据不同的类别分类，附�
 
 #### （1）数组
 
-#### （2）栈
+#### （2）链表
 
-#### （3）队列
+---
 
-#### （4）树
+| 序号   | 标题                                                                         | 解题思路                                                                                                                  | 难度     |
+|:---- |:--------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:------:|
+| #237 | [删除链表中的结点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [解法（C语言）](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/DeleteLinkedNode.md) | easy   |
+| #206 | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)              | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/ReverseLink.md)           | easy   |
+| #21  | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)       | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/MergeTwoSortedLinks.md)   | easy   |
+| #160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [解法（C语言）](/sources/HotTopInterviewQuestions/GetIntersectionNode.md)                                                   | easy   |
+| #141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)                | [解法（C语言）](/sources/HotTopInterviewQuestions/HasCycle.md)                                                              | easy   |
+| #234 | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)           | [解法](sources/HotTopInterviewQuestions/isPalindromeList.md)                                                            | easy   |
+| #328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)             | [解法](sources/HotTopInterviewQuestions/oddEvenList.md)                                                                 | medium |
+|      |                                                                            |                                                                                                                       |        |
+|      |                                                                            |                                                                                                                       |        |
+|      |                                                                            |                                                                                                                       |        |
+|      |                                                                            |                                                                                                                       |        |
+|      |                                                                            |                                                                                                                       |        |
+|      |                                                                            |                                                                                                                       |        |
+|      |                                                                            |                                                                                                                       |        |
+|      |                                                                            |                                                                                                                       |        |
+|      |                                                                            |                                                                                                                       |        |
+
+#### （3）栈
+
+#### （4）队列
+
+#### （5）树
 
 ###### 二叉树
 
@@ -42,7 +65,7 @@ Trie (发音为 "try") 或前缀树是一种树数据结构，用于检索字符
 |      |                                                                             |                                                |        |
 |      |                                                                             |                                                |        |
 
-#### （4）图
+#### （6）图
 
 ## 二.算法
 
@@ -157,7 +180,7 @@ Trie (发音为 "try") 或前缀树是一种树数据结构，用于检索字符
 | #287 | [寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/solution/xun-zhao-zhong-fu-shu-by-leetcode/) | [解法](sources/HotTopInterviewQuestions/findDuplicate.md)                                                                         | medium |
 | #208 | [实现Trie(前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)                                     | [解法](sources/HotTopInterviewQuestions/Trie.md)                                                                                  | medium |
 | #105 | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  | [解法](sources/HotTopInterviewQuestions/buildTree.md)                                                                             | medium |
-|      |                                                                                                                 |                                                                                                                                 |        |
+| #328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)                                                  | [解法](sources/HotTopInterviewQuestions/oddEvenList.md)                                                                           | medium |
 |      |                                                                                                                 |                                                                                                                                 |        |
 |      |                                                                                                                 |                                                                                                                                 |        |
 |      |                                                                                                                 |                                                                                                                                 |        |
