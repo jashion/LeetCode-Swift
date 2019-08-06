@@ -118,6 +118,34 @@ Trie (发音为 "try") 或前缀树是一种树数据结构，用于检索字符
 
 ## 三.其他专题
 
+#### 腾讯精选练习（50题）
+
+---
+
+| 序号   | 标题                                                                         | 解题思路                                                                                                                  | 难度   |
+|:---- |:--------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|:----:|
+| #237 | [删除链表中的结点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [解法（C语言）](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/DeleteLinkedNode.md) | easy |
+| #104 | [二叉树最大的深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [解法](/sources/TencentInterviewQuestions/maxDepth.md)                                                                  | easy |
+| #292 | [Nim游戏](https://leetcode-cn.com/problems/nim-game/)                        | [解法](/sources/TencentInterviewQuestions/canWinNim.md)                                                                 | easy |
+| #344 | [反转字符串](https://leetcode-cn.com/problems/reverse-string/)                                                                                   | [解法](https://github.com/jashion/LeetCode-Swift/blob/master/sources/HotTopInterviewQuestions/ReverseString.md)                   | easy   |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+|      |                                                                            |                                                                                                                       |      |
+
 #### 精选Top面试题
 
 ---
